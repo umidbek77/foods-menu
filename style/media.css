@@ -1,0 +1,335 @@
+@media (max-width:1800px){
+    
+    .burger-menu {
+        display: none;
+    }
+    
+}
+
+@media (max-width:1120px){
+    
+    .burger-menu {
+        display: none;
+    }
+    .banner{
+        padding:100px ;
+    }
+
+}
+
+@media(max-width:993px){
+    .header-nav_logo ,
+    .footer-top_logo {
+        font-size: 30px;
+        padding-block: 8px;
+    }
+
+    .banner{
+        padding: 100px 0;
+    }
+
+    .banner-info_title {
+        font-size: 60px;
+    }
+
+    .banner-info_subtitle{
+        font-size: 30px;
+    }
+
+    .banner-info_text {
+        font-size: 16px;
+    }
+
+    .banner-info_price{
+        font-size: 40px;
+        padding: 25px 60px;
+    }
+
+    .banner-info_btn {
+        font-size: 16px;
+        padding : 12px 55px;
+    }
+
+    .footer-top {
+        padding-block: 28px;
+    }
+}
+
+
+@media(max-width:768px){
+    
+    .header-top{
+        padding-block:14px ;
+    }
+
+    .header-nav {
+        padding-block: 4px;
+    }
+    .header-nav_nav{
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .banner-info_title {
+        font-size: 50px;
+    }
+
+    .banner-info_subtitle{
+        font-size: 25px;
+    }
+
+    .banner-info_text {
+        font-size: 14px;
+    }
+
+    .catalog {
+        margin-block:35px;
+    }
+
+    .catalog-nav{
+        gap:25px;
+    }
+
+    .catalog-nav_link{
+        font-size: 16px;
+    }
+
+    .location-info {
+        font-size: 18px;
+        padding-block: 18px;
+        line-height: 35px;
+    }
+
+    .footer-top {
+        padding-block: 25px;
+    }
+
+    .footer-top_phone {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 739px) {
+    .catalog-content {
+        gap: 25px;
+    }
+    
+    .content-card:nth-child(even) {
+        display: none;
+    }
+
+    .content-card {
+        width:40%;
+    }
+
+    .location-map {
+        height: 75%;
+    }
+
+    .footer-top {
+        padding-block: 22px;
+    }
+
+    .footer-top_phone {
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 576px){
+    .location-map {
+        height: 85%;
+    }
+
+    .location-info {
+        font-size: 16px;
+        padding-block: 15px;
+        line-height: 30px;
+    }
+    .header-top{
+        padding-block:10px ;
+    }
+    
+    .header-nav_logo ,
+    .footer-top_logo {
+        font-size: 25px;
+        padding-block:5px ;
+    }
+
+    .header-top_nav-link,
+    .footer-nav_link{
+        font-size: 14px;
+    }
+
+    .footer-top {
+        padding-block: 20px;
+    }
+
+    .footer-top_phone {
+        font-size: 16px;
+    }
+
+    .footer-nav {
+        margin-block: 48px  76px;
+    }
+
+    .footer-bottom {
+        padding-block: 17px;
+    }
+
+    .banner{
+        padding-block: 75px;
+    }
+
+    .banner-info_title {
+        font-size: 40px;
+    }
+
+    .banner-info_subtitle{
+        font-size: 20px;
+    }
+
+    .banner-info_price{
+        font-size: 30px;
+        padding: 20px 50px;
+    }
+
+    .banner-info_btn {
+        font-size: 14px;
+        padding : 10px 45px;
+    }
+
+    .catalog {
+        margin-block: 20px;
+    }
+
+    .catalog-nav{
+        gap:20px;
+    }
+
+    .content-card_text{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .catalog-nav_link{
+        font-size: 14px;
+        padding-block: 15px;
+    }
+}
+
+@media(max-width: 420px){
+    
+    .location-map {
+        height: 80%;
+    }
+
+    .location-info {
+        font-size: 14px;
+        padding-block: 13px;
+        line-height: 25px;
+    }
+
+    .container{
+        padding-inline: 15px;
+    }
+    
+    .header-top_nav{
+        display: none;
+    }
+
+    .header-top {
+        justify-content: center;
+    }
+
+    .header-nav_logo ,
+    .footer-top_logo {
+        font-size: 20px;
+        padding: 3px 15px;
+    }
+
+    .footer-top {
+        padding-block: 18px;
+    }
+
+    .footer-top_phone {
+        font-size: 14px;
+    }
+
+    .footer-nav {
+        margin-block: 40px  67px;
+    }
+
+    .footer-bottom_text {
+        font-size: 14px;
+    }
+
+    .banner-info_text {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .banner-info_price{
+        font-size: 25px;
+        padding: 15px 35px;
+    }
+
+    .banner-info_btn{
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+
+    .content-card{
+        width: 80%;
+    }
+}
+
+@media(max-width: 350px) {
+    .location-map {
+        height: 60%;
+    }
+
+    .location-info {
+        font-size: 12px;
+        padding-block: 10px;
+        line-height: 20px;
+    }
+    
+    .banner{
+        padding-block:50px;
+    }
+    
+    .banner-info_btn{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .content-card{
+        width: 90%;
+    }
+
+    .footer-top {
+        padding-block: 16px;
+    }
+
+    .footer-top_phone {
+        font-size: 12px;
+    }
+
+    .footer-nav {
+        margin-block: 40px  60px;
+    }
+
+    .footer-bottom_text {
+        font-size: 12px;
+    }
+
+}
